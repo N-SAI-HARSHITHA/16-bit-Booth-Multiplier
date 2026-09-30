@@ -18,8 +18,8 @@ The project is divided into the following modules:
 - `boothmul` - Main multiplier module
 - `booth_substep` - Performs one step of the Booth multiplication
 - `Adder` - 8-bit adder
-- `Subtractor` - 8-bit subtractor
-- `Lib.v` - Contains the logic gates and full adder modules used by the design
+- `subtractor` - 8-bit subtractor
+- `lib.v` - Contains the logic gates and full adder modules used by the design
 
 Eight `booth_substep` stages are used to process the 8-bit multiplier.
 
